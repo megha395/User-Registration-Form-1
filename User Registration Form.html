@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
+</head>
+
+<body>
+
+</html>
+
+<Style type="text/css">
+    form{
+      background-color: rgb(53, 86, 140);
+    }
+    
+
+    legend {
+        color:rgb(66, 67, 64);
+    }
+
+    input {
+        color: rgb(137, 116, 21);
+
+    }
+
+    label {
+        color: whitesmoke;   
+        margin: 15px;
+        width: 100px;
+        display: inline-block;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    class {
+        color: rgb(217, 224, 245);
+    }
+
+    option {
+        color: darkgoldenrod;
+    }
+
+    body {
+        margin: 20px solid rgb(rgb(95, 26, 26), green, blue);
+        padding-left: 250px;
+        padding-right: 250px;
+        padding-top: 100px;
+        padding-bottom: 50px ;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf1xQECrV5_YEq0t1lptZpNpD3Rgc_Po9MgBXSmwQnrQQ8hN-V78iqhUNlkZIVMNSTfco&usqp=CAU);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+</Style>
+
+<fieldset>
+
+<legend><h1>Registration Form</h1></legend>
+<form>
+
+    <form action="beckend.php">
+        <div>
+            <h5>
+                <label>User Name:</label> <input type="text" Name="Myname" id="Name">
+
+                <label>Password:</label> <input type="password" name="Password" id="Password"><br>
+
+                <label>First Name:</label> <input type="text" Name="Myname" id="Name">
+
+                <label>Last Name:</label> <input type="text" Name="Myname" id="Name"><br>
+
+                <label>Email:</label> <input type="email" name="Email" id="Email">
+
+                <label>Date of Birth:</label> <input type="date" name="Date" id="date"> <br>
+
+                <label>Phone No.</label> <input type="number" Name="MyPhone" id="Number">
+
+                <label>Gender:</label>
+                <class>
+                    Male: <input type="radio" name="Gender">
+                    Female: <input type="radio" name="Gender">
+                    Other: <input type="radio" name="Gender">
+                </class><br>
+                <label>Qualification:</label><select name="My Qualification" id="Qualification">
+
+                    <option value="sel">--Select--</option>
+                    <option value="B.E">B.E</option>
+                    <option value="B.Tech">B.Tech</option>
+                    <option value="M.E">M.E</option>
+                    <option value="M.Tech">M.Tech</option>
+                    <option value="B.Sc">B.Sc</option>
+                    <option value="B.CA">B.CA</option>
+                </select><br>
+         <center>
+            <input type="checkbox"> <label style="width:188px;">I accept Terms and Conditions </label> 
+            <input style="background-color: rgb(13, 174, 243); color: white;"  type="submit" value="Submit"> <input type="reset">   <br> <br>       
+        </center>
+    </h5>
+        </div>
+    </form>
+</fieldset>
+   
+</body>
+</html>
